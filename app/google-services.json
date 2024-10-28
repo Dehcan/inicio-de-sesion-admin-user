@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "176127766992",
+    "project_id": "codigodeaccesoapi21",
+    "storage_bucket": "codigodeaccesoapi21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176127766992:android:aa2b24807078bca38609d5",
+        "android_client_info": {
+          "package_name": "cl.example.toolbarlogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGrXgkK4nVh8QyGzoBesUzK9sljuO9070"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
