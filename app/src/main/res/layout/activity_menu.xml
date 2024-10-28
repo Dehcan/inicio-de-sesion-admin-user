@@ -8,19 +8,28 @@
     android:layout_height="match_parent"
     android:background="@color/verdelima"
     tools:context=".Menu">
-
-    <RelativeLayout
+    <!--<include layout="@layout/appbarprueba"></include>-->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <Button
-            android:id="@+id/cerrarsesion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="Cerrar Sesión"
-            android:textSize="30dp"
-            android:textStyle="bold">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/cerrarsesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="350dp"
+                android:text="Cerrar Sesión"
+                android:textSize="30dp"
+                android:textStyle="bold">
 
-        </Button>
-    </RelativeLayout>
+            </Button>
+        </RelativeLayout>
+    </LinearLayout>
+
 </LinearLayout>
